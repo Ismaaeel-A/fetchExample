@@ -1,0 +1,58 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(29, 29, 29);
+}
+
+/* /* .container {
+    display: grid;
+    gap: .2rem;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    border: 1px solid green; 
+
+    & button {
+        background-color: burlywood;
+        color: brown;
+    }
+    & p{
+        color: silver;
+    }
+    & .card {
+        display: grid;
+        width: 18rem;
+        background-color: rgb(34, 15, 72);
+        padding: 5px;
+        gap: .3rem;
+        margin: 5px;
+
+        & img {
+            width: 100%;
+        }
+    }
+} */
+
+
+.tafel{
+    background-color: rgb(111, 166, 191);
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td, tr, th{
+    border: 2px solid black;
+    padding: 3px;
+    min-width: 100px;
+}
+
+img{
+    width: 100px;
+}
